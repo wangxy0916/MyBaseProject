@@ -1,0 +1,99 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--这个影响到单选框的选中颜色的问题 EditText-->
+        <item name="colorAccent">@color/color_theme</item>
+    </style>
+
+    <!--添加到启动页，解决app启动时白屏问题-->
+    <style name="Theme.Splash" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@mipmap/ic_splash_bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--通用标题栏style-->
+    <style name="CommonTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_40</item>
+        <item name="android:background">@color/color_theme</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--通用白色字体大标题文字的style-->
+    <style name="CommonTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fontcolor_white</item>
+        <item name="android:textSize">@dimen/fontsize_eighteenth</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!--通用菜单条目的style-->
+    <style name="CommonMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_45</item>
+        <item name="android:background">@color/bgcolor_white</item>
+        <item name="android:paddingLeft">@dimen/qb_px_15</item>
+        <item name="android:paddingRight">@dimen/qb_px_15</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!--通用黑色字体菜单文字的style-->
+    <style name="CommonMenuText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fontcolor_common</item>
+        <item name="android:textSize">@dimen/fontsize_sixteen</item>
+    </style>
+    <!--通用黑色字体正文文字的style-->
+    <style name="CommonBodyText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fontcolor_common</item>
+        <item name="android:textSize">@dimen/fontsize_fourteen</item>
+    </style>
+    <!--通用主要按钮的style-->
+    <style name="CommonSubmitBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_45</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_30</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_30</item>
+        <item name="android:textSize">@dimen/fontsize_eighteenth</item>
+        <item name="bl_corners_radius">4dp</item>
+    </style>
+    <!--列表空状态时显示图片style-->
+    <style name="ListEmptyImg">
+        <item name="android:layout_width">@dimen/def_height</item>
+        <item name="android:layout_height">@dimen/def_height</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <!--列表空状态时整体背景style-->
+    <style name="ListEmptyBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bgcolor_gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--圆角输入框style-->
+    <style name="RoundEditTextBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_50</item>
+        <item name="bl_corners_radius">3dp</item>
+        <item name="bl_solid_color">@color/bgcolor_edittext</item>
+    </style>
+
+
+
+
+</resources>

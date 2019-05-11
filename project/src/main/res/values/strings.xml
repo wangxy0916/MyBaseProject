@@ -1,0 +1,78 @@
+<resources>
+
+    <!--
+    命名规则：
+    通用：text_逻辑名
+    模块专用：text_模块名_逻辑名
+    举例：
+    以下为几种常用的命名：
+    text_main_menu_about	主模块菜单按键文字
+    text_friend_title	好友模块标题栏
+    text_friend_dialog_del	好友模块删除提示
+    text_login_check_email	登录模块验证
+    text_dialog_title	弹出框标题
+    text_button_ok	确认键
+    text_loading	加载文字
+    -->
+
+    <string name="app_name">大闸蟹</string>
+    <!--+++++++++++++++++++++通用+++++++++++++++++++++-->
+    <string name="text_confirm">确定</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_finish">完成</string>
+    <string name="text_loading">加载中...</string>
+    <string name="text_perm_reject">没有该权限，此应用程序可能无法正常工作。打开应用设置屏幕以修改应用权限</string>
+    <string name="text_perm_must">必须权限</string>
+    <string name="text_copy_succeed">复制成功</string>
+    <string name="text_copy_failed">复制失败</string>
+    <!--+++++列表状态+++++-->
+    <string name="text_list_empty">没有数据</string>
+    <string name="text_list_error">加载出错</string>
+
+
+
+    <!--+++++++++++++++++++++Splash+++++++++++++++++++++-->
+    <string name="text_splash_s">秒</string>
+    <!--+++++++++++++++++++++Guide+++++++++++++++++++++-->
+    <string name="text_guide_start">开始体验</string>
+
+    <!--+++++++++++++++++++++Login+++++++++++++++++++++-->
+    <string name="text_login_account_hint">请输入账号</string>
+    <string name="text_login_pwd_hint">请输入密码</string>
+    <string name="text_login_forget">忘记密码?</string>
+    <string name="text_login_register">注册</string>
+    <string name="text_login_login">登陆</string>
+    <string name="text_login_protocol1">我已阅读并同意</string>
+    <string name="text_login_protocol">《大闸蟹使用协议》</string>
+
+
+
+
+
+
+    <!--+++++++++++++++++++++Main+++++++++++++++++++++-->
+    <string name="text_main_tab_home">首页</string>
+    <string name="text_main_tab_two">二</string>
+    <string name="text_main_tab_three">三</string>
+    <string name="text_main_tab_my">我的</string>
+
+    <string name="text_main_toast_outlogin_remind">再按一次对出应用</string>
+
+
+
+    <!--+++++++++++++++++++++My+++++++++++++++++++++-->
+    <string name="text_my_exit">退出登录</string>
+
+
+
+    <!--+++++++++++++++++++++Html+++++++++++++++++++++-->
+    <string name="text_html_toast_fail">create sonic session fail!</string>
+
+
+
+
+
+
+
+
+</resources>

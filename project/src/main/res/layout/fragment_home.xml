@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_home_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dialog Demo"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试网络请求" />
+
+
+            <!--<Button-->
+                <!--android:id="@+id/btn2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="测试单按钮Dialog" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="测试双按钮Dialog"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="60dp" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="输入框Dialog"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="108dp" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn11"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="列表单选Dialog"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="204dp" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="测试自定义广告Dialog"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="156dp" />-->
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试请求权限"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="287dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通列表"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="307dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="列表不同item"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="282dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="列表分层"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="307dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="优化网页"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="307dp"
+                tools:layout_editor_absoluteY="204dp" />
+
+
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="列表分层"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="307dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn13"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="底部弹出选择头像"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="252dp" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn14"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="底部弹出选择分享"-->
+                <!--tools:ignore="MissingConstraints"-->
+                <!--tools:layout_editor_absoluteX="0dp"-->
+                <!--tools:layout_editor_absoluteY="292dp" />-->
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <EditText
+        android:id="@+id/ed1"
+        style="@style/RoundEditTextBg"
+        android:layout_above="@+id/tv1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:hint="test" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv2"
+        android:layout_marginBottom="1dp"
+        android:text="底部文字，输入法冲突测试" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="引导页，轮播图，刷新加载换个效果，推送不同类型，okgo参数加密、默认参数,ObjectBox简单使用"
+        android:textColor="@color/fontcolor_common"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor_gray">
+
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_200"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_home_1"
+        style="@style/CommonMenu">
+        <TextView
+            android:layout_weight="1"
+            style="@style/CommonMenuText"
+            android:text="aaaaaaa"
+            />
+
+        <TextView
+            style="@style/CommonMenuText"
+            android:text="a"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_2"
+        style="@style/CommonMenu"
+        android:layout_marginTop="2px">
+        <TextView
+            android:layout_weight="1"
+            style="@style/CommonMenuText"
+            android:text="bbbbbbbb"
+            />
+
+        <TextView
+            style="@style/CommonMenuText"
+            android:text="b"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_home_3"
+        style="@style/CommonMenu"
+        android:layout_marginTop="2px">
+        <TextView
+            android:layout_weight="1"
+            style="@style/CommonMenuText"
+            android:text="bbbbbbbb"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_titlebar_back"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_home_4"
+        style="@style/CommonMenu"
+        android:layout_marginTop="2px">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_titlebar_back"/>
+        <TextView
+            style="@style/CommonMenuText"
+            android:text="cccc"
+            android:layout_marginLeft="@dimen/qb_px_20"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_my_exit"
+        style="@style/CommonSubmitBtn"
+        app:bl_solid_color="@color/bgcolor_exit_btn"
+        android:text="@string/text_my_exit"/>
+
+
+
+</LinearLayout>

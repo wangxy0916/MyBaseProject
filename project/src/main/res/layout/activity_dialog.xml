@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_dialog_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通双按钮dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通单按钮dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入框dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通列表dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表单选双按钮dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="底部列表dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点赞评价"/>
+    <Button
+        android:id="@+id/btn_dialog_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片预览"/>
+    <Button
+        android:id="@+id/btn_dialog_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完全自定义Dialog"/>
+    <Button
+        android:id="@+id/btn_dialog_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片预览ViewPager模式"/>
+    <Button
+        android:id="@+id/btn_dialog_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮下边弹出"/>
+
+
+</LinearLayout>

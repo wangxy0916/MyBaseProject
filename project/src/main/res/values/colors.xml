@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--+++++++++++++++++++++++++特定颜色，直接用本意命名++++++++-->
+    <color name="color_theme">#125211</color>
+    <color name="color_transparency">#00000000</color>
+    <color name="color_red">#ff3725</color>
+    <color name="color_green">#25ff37</color>
+    <color name="color_blue">#25ecff</color>
+
+
+
+
+
+
+
+
+    <!--+++++++++++++++++++++++++字体颜色++++++++-->
+    <color name="fontcolor_common">#000000</color>
+    <color name="fontcolor_white">#ffffff</color>
+    <color name="fontcolor_gray">#f3f5f9</color>
+    <color name="fontcolor_toast">#754c24</color>
+    <color name="fontcolor_refresh">#754c24</color>
+    <!--+++++++++++++++++++++++++背景颜色++++++++-->
+    <color name="bgcolor_gray">#f3f5f9</color>
+    <color name="bgcolor_white">#ffffff</color>
+
+    <color name="bgcolor_toast">#aeeaee</color>
+    <color name="bgcolor_loading">#A1A1A9</color>
+    <color name="bgcolor_loading_accent">#125211</color>
+
+    <color name="bgcolor_refresh">#ffffff</color>
+
+    <color name="bgcolor_edittext">#d6e9f9</color>
+
+
+
+
+
+
+    <!--+++++++++++++++++++Splash页面++++++++-->
+    <color name="fontcolor_splash_count">#157ed4</color>
+
+    <color name="bgcolor_splash_count">#A1A1A9</color>
+    <color name="bgcolor_splash_count_width">#008577</color>
+
+
+
+    <!--+++++++++++++++++++Login页面++++++++-->
+    <color name="fontcolor_login_count">#157ed4</color>
+
+    <color name="bgcolor_login_btn">#157ed4</color>
+
+
+    <!--+++++++++++++++++++Main页面++++++++-->
+    <color name="fontcolor_main_navigat_select">#157ed4</color>
+    <color name="fontcolor_main_navigat_unselect">#A1A1A9</color>
+
+    <!--虚拟按键背景色-->
+    <color name="bgcolor_virtual_white">#ffffff</color>
+    <color name="bgcolor_virtual_black">#000000</color>
+
+
+    <!--++++++++++++++++++++Home页面++++++++-->
+    <color name="fontcolor_home_red">#000000</color>
+    <color name="fontcolor_home_yellow">#000000</color>
+
+
+    <!--++++++++++++++++++++My页面++++++++-->
+    <color name="fontcolor_my_red">#000000</color>
+    <color name="fontcolor_my_green">#000000</color>
+    <color name="fontcolor_my_blue">#000000</color>
+
+    <color name="bgcolor_exit_btn">#157ed4</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
