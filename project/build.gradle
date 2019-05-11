@@ -116,11 +116,12 @@ dependencies {
     //BasegroundLibrary https://github.com/JavaNoober/BackgroundLibrary/blob/master/%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md
     implementation 'com.noober.background:core:1.4.4'
     //Dialog库
-    implementation project(':sydialoglib')
+//    implementation project(':sydialoglib')
     //轮播
     //        implementation 'com.youth.banner:banner:1.4.10'
     //    implementation 'cn.bingoogolapple:bga-banner:2.2.6@aar'
     //图片框架
     implementation 'com.github.bumptech.glide:glide:4.9.0'
+    //Dialog库 XPopup
     implementation project(':library')
 }
